@@ -31,6 +31,10 @@ public class LegacyMetaServerProvider implements MetaServerProvider {
     domains.put(Env.UAT, getMetaServerAddress(prop, "uat_meta", "uat.meta"));
     domains.put(Env.LPT, getMetaServerAddress(prop, "lpt_meta", "lpt.meta"));
     domains.put(Env.PRO, getMetaServerAddress(prop, "pro_meta", "pro.meta"));
+    domains.put(Env.SIT, getMetaServerAddress(prop, "sit_meta", "sit.meta"));
+    domains.put(Env.VER, getMetaServerAddress(prop, "ver_meta", "ver.meta"));
+    domains.put(Env.PROD, getMetaServerAddress(prop, "prod_meta", "prod.meta"));
+
   }
 
   private String getMetaServerAddress(Properties prop, String sourceName, String propName) {

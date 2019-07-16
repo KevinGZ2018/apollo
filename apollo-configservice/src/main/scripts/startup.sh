@@ -1,7 +1,7 @@
 #!/bin/bash
 SERVICE_NAME=apollo-configservice
 ## Adjust log dir if necessary
-LOG_DIR=/opt/logs/100003171
+LOG_DIR=/apps/logs/apollo/configservice
 ## Adjust server port if necessary
 #SERVER_PORT=8080
 SERVER_PORT=${SERVER_PORT:=8080}
